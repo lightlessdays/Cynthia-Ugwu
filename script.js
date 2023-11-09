@@ -207,3 +207,44 @@ document.querySelectorAll(".elem").forEach(function(elem){
 
 // showImageInElem();
 
+//SIDE BAR CODE
+/* Set the width of the side navigation to 250px */
+// function openNav() {
+//   document.getElementById("mySidenav").style.width = "250px";
+//   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+// }
+
+// /* Set the width of the side navigation to 0 */
+// function closeNav() {
+//   document.getElementById("mySidenav").style.width = "0";
+//   document.body.style.backgroundColor = "black";
+// }
+
+
+
+var elemlist = document.getElementsByClassName("elem")
+
+for(var i=0;i<elemlist.length;i++){
+  elemlist[i].addEventListener("mouseenter",mouseEnter)
+  elemlist[i].addEventListener("mouseleave",mouseExit)
+}
+
+
+function mouseEnter() {
+  var minicirclestyle = document.getElementById("minicircle").style;
+  minicirclestyle.width = "100px"
+  minicirclestyle.height = "100px"
+  minicirclestyle.opacity = 1
+
+  document.getElementById("minicircle-text").style.display = "revert";
+}
+
+function mouseExit(){
+  // document.getElementById("elemfirst").style.color = "black"
+  var minicirclestyle = document.getElementById("minicircle").style;
+  minicirclestyle.width="15px"
+  minicirclestyle.height = "15px"
+  minicirclestyle.opacity = 0.5
+  document.getElementById("minicircle-text").style.display = "none";
+}
+

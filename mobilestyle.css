@@ -1,0 +1,34 @@
+/*HIDING THE DESKTOP CODE ON MOBILE*/
+@media (max-width: 767px) {
+    #main {
+        display:none;
+    }
+    #mainmobile{
+        display:revert;
+    }
+    #minicircle{
+        display:none;
+    }
+
+    .elem img{
+        display: none;
+    }
+}
+
+/*MODIFYING THE DESKTOP ELEMENTS*/
+@media (max-width: 767px) {
+    .menu {
+        font-size: 14px !important;
+    }
+}
+
+/* CSS FOR MOBILE ONLY ELEMENTS */
+
+.mobile-banner{
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
