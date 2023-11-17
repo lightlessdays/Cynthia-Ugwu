@@ -75,6 +75,24 @@
     .footer img{
         width: 0px;
     }
+
+    #herofooter {
+        font-size: 2.5vw;
+        padding: 0px 20px;
+    }
+    
+    #second {
+        color: #fff;
+        padding-right: 4vw;
+        padding-top: 100px;
+        padding-bottom: 80px;
+        background-color: black;
+    }
+
+    .elem {
+        padding: 10vw 3vw;
+    }
+
 }
 
 /* CSS FOR MOBILE ONLY ELEMENTS */

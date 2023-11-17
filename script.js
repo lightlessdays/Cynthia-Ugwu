@@ -256,7 +256,6 @@ function scrollToTarget(){
 const target = document.querySelector('#js-target');
 
 scroll.scrollTo(target);
-// alert("AMPLE")
   }
   
 scrollToTarget();

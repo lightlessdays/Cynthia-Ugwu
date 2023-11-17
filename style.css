@@ -44,7 +44,7 @@ body {
     justify-content: center;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
     width: 15px;
-    height: 15px;
+    height: 15px;   
     background-color: #fff;
     opacity: 0.5;
     position: absolute;
