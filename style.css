@@ -10,23 +10,6 @@
     src: url(fonts/GeneralSans-Medium.otf);
 }
 
-/*HIDING THE DESKTOP CODE ON MOBILE*/
-@media (max-width: 767px) {
-    #main {
-        display:none;
-    }
-    #mainmobile{
-        display:revert;
-    }
-    #minicircle{
-        display:none;
-    }
-
-    .elem img{
-        display: none;
-    }
-}
-
 /*HIDING MOBILE CODE ON DESKTOP*/
 @media (min-width:766.9999px){
     #mainmobile{
@@ -111,6 +94,7 @@ body {
     margin-top: 90px;
 
 }
+
 
 #heading #secondh1 {
     margin-left: 230px;
