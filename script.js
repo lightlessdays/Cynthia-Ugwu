@@ -260,3 +260,11 @@ scroll.scrollTo(target);
   
 scrollToTarget();
   
+
+function getCurrentTime(){
+  var time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: "2-digit" }) ;
+  document.getElementById("time").innerHTML = time;
+  document.getElementById("time2").innerHTML = time;
+}
+
+getCurrentTime();
