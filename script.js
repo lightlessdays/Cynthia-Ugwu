@@ -1,4 +1,6 @@
 var timeout;
+// import LocomotiveScroll from 'locomotive-scroll.min.js';
+
 
 const scroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
@@ -248,3 +250,14 @@ function mouseExit(){
   document.getElementById("minicircle-text").style.display = "none";
 }
 
+//SCROLLING TO A SECTION
+function scrollToTarget(){
+  const scroll = new LocomotiveScroll();
+const target = document.querySelector('#js-target');
+
+scroll.scrollTo(target);
+// alert("AMPLE")
+  }
+  
+scrollToTarget();
+  

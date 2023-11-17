@@ -171,20 +171,22 @@ body {
 }
 
 #herofooter #icon-set {
-    color: black;
-    display: flex;
-    gap: 5px;
-    font-weight: bold;
+    color: black !important; 
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5px !important;
+    font-weight: bold !important;
 }
 
-#herofooter #circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #aaaaaa;
+#herofooter a #circle{
+    color:black !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50% !important;
+    background-color: #aaaaaa !important;
 }
 
 #second {
