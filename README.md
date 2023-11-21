@@ -1,6 +1,6 @@
 <img src="banner.png" width=100%>
 
-> "My portfolio website aims to captivate and inspire visitors. With the primary objective of highlighting my skills, experience, and unique design approach." - Cynthia Ugwu
+> ### _"My portfolio website aims to captivate and inspire visitors. With the primary objective of highlighting my skills, experience, and unique design approach." - Cynthia Ugwu_
 
 ## What to Look Out For?
 
