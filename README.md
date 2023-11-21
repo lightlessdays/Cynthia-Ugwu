@@ -1,6 +1,6 @@
-<img src="banner.png" width=100%>
-
 # Cynthia Ugwu - A Clone of Awwwards Website
+
+<img src="banner.png" width=100%>
 
 Cynthia Ugwu's website has been featured in [Awwwards](https://www.awwwards.com/sites/cynthia-ugwu) and has won multiple awards for its simplicity. I have tried to clone this award-winning website in as minimal a way as possible. I have taken some artistic liberties while making the website to make the code run smoother. The following frameworks and languages have been used for this website:
 - HTML
